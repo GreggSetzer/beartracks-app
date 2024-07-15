@@ -1,0 +1,21 @@
+.customModal {
+    width: 100% !important;
+    max-width: none !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customModalContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.customModalClose {
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid #4a4a4a;
+}
