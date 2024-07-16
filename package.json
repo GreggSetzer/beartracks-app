@@ -1,10 +1,10 @@
 {
-  "name": "navigator-demo-app",
+  "name": "beartracks-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
-    "@greggsetzer/navigator-demo-ui": "^1.0.29",
+    "@greggsetzer/beartracks-ui": "^1.0.5",
     "@reduxjs/toolkit": "^2.2.5",
     "@vis.gl/react-google-maps": "^1.1.0",
     "axios": "^1.7.2",
@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
+    "test": "jest --config jest.config.ts",
+    "test:coverage": "jest --coverage --config jest.config.ts",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix"
@@ -61,8 +62,11 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.3.2",
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^3.4.4",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2"
   }
 }

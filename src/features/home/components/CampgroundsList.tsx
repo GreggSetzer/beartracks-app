@@ -1,4 +1,4 @@
-import { ImageCard } from '@greggsetzer/navigator-demo-ui';
+import { ImageCard } from '@greggsetzer/beartracks-ui';
 import { Campground, ImageInfo } from '../../../common/types/apiTypes';
 
 interface CampgroundsListProps {

@@ -1,9 +1,9 @@
 import { Auth0Provider } from '@auth0/auth0-react';
-import { SkeletonGrid } from '@greggsetzer/navigator-demo-ui';
+import { SkeletonGrid } from '@greggsetzer/beartracks-ui';
 import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import '@greggsetzer/navigator-demo-ui/dist/index.css';
+import '@greggsetzer/beartracks-ui/dist/index.css';
 import 'react-responsive-modal/styles.css';
 import { Provider as ReduxProvider } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

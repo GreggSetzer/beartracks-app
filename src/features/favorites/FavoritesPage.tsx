@@ -1,5 +1,5 @@
 import { withAuthenticationRequired } from '@auth0/auth0-react';
-import { SkeletonGrid } from '@greggsetzer/navigator-demo-ui';
+import { SkeletonGrid } from '@greggsetzer/beartracks-ui';
 import React from 'react';
 import Layout from '../../common/components/Layout';
 import FavoritesList from './components/FavoritesList';

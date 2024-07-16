@@ -1,7 +1,7 @@
-import { Button, Select } from '@greggsetzer/navigator-demo-ui';
+import { Button, Select } from '@greggsetzer/beartracks-ui';
 import React from 'react';
 import { Park } from '../../../common/types/apiTypes';
-import { Option } from '@greggsetzer/navigator-demo-ui/dist/components/Select';
+import { Option } from '@greggsetzer/beartracks-ui/dist/components/Select';
 import { useFetchParksQuery } from '../../../app/store';
 
 interface HeroSearchProps {
